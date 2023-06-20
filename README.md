@@ -37,7 +37,7 @@ semantic feature. Image captioning information can be extracted by executing R_0
 - Note that the image and feature files are too large, we didn't put it into our repository. If you want to reproduce the image captioning or image feature extraction part, please put the images to 'imgs/'('imgs/train' and 'imgs/test'). If you want to reproduce or take a look for all the feature processing steps, please download complete file by this link:  
 
 #### Environments
-- PC:  i9-9900K, 32GB Memory, Nvidia 3090 Ti.
+- PC:  i9-9900K, 32GB Memory, Nvidia 3090.
 - OS: Ubuntu 18.04.6 LTS (Bionic Beaver), cuda 11.0
 - Software & Libs: Anaconda with python 3.7, Tensorflow 1.12, Tensorflow 2.0 (captioning), pytorch, sklearn, gensim, pandas, lightgbm, and pytorch-tabnet. **You can setup environment with 'requirements.txt'.**
 
