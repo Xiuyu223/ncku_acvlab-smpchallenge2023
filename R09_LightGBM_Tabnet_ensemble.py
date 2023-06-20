@@ -568,6 +568,7 @@ results_1 = pd.DataFrame(data_1['result'])
 results_2 = pd.DataFrame(data_2['result'])
 
 ensemble = results_1.copy()
+ensemble['popularity_score'] = results_1['popularity_score'] * 0.7 + results_2['popularity_score'] * 0.3
 
 
 j = '{"version": "VERSION 1.2","result":['
