@@ -23,7 +23,7 @@ For step 2 and 3, we also provide the processed features in 'train/'. If you wan
    
 3. We also crawled some new features by pathalias. The code is available in 'new_feature_crawler_by_pathalias.py'. Execute to crawl the external data. Also, the organized data is in 'train/new_features.pkl'.
 
-4. With the above steps, we have already finished processing data and features. Run R09 to start training and inference! The result file would be output to 'submission.json'. As our model is ensembled by lightgbm and tabnet in ratio of 7:3, we also output the result file of these two model, respectively.
+4. With the above steps, we have already finished processing data and features. Run R09 to start training and inference! The result file would be output to **'submission.json'**. As our model is ensembled by lightgbm and tabnet in ratio of 7:3, we also output the result file of these two model, respectively.
   
 #### Reminder
 - For the part of features same as last year:
