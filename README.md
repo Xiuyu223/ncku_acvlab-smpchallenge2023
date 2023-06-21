@@ -34,7 +34,7 @@ semantic feature. Image captioning information can be extracted by executing R_0
 
 - In this year, we do image captioning with bilp. It is available in the open source project. If you want to reproduce this part, please follow this repository (https://github.com/salesforce/LAVIS) and build it from source. We used a pretrained blip captioning model trained with coco. We also used sentence_transformers(https://github.com/UKPLab/sentence-transformers) for getting text embedding. Make sure you have install these packages for feature extraction.
 
-- Note that the image and feature files are too large, we didn't put it into our repository. If you want to reproduce the image captioning or image feature extraction part, please put the images to 'imgs/'('imgs/train' and 'imgs/test'). If you want to reproduce or take a look for all the feature processing steps, please download complete file by this link:  
+- Note that the image and feature files are too large, we didn't put it into our repository. If you want to reproduce the image captioning or image feature extraction part, please put the images to 'imgs/'('imgs/train' and 'imgs/test'). If you want to reproduce or take a look for all the feature processing steps, please download complete file by **this link: https://1drv.ms/u/s!AmaAVPK0zhHXpgGIfqWOR8xRivi4?e=RVizeX ** 
 
 #### Environments
 - PC:  i9-9900K, 32GB Memory, Nvidia 3090.
